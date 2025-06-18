@@ -1,0 +1,6 @@
+Analysis:
+Time Complexity:
+The time complexity of my recursive algorithm is O(n), where n is the number of years. This is because the function calls itself once for each year until it reaches the base case.
+
+Optimization:
+Although recursion makes the code clean and easy to understand, it can lead to performance issues for large inputs due to repeated calculations. To avoid this, I can either use an iterative approach, which uses a simple loop, or apply memoization to store already calculated values and reuse them instead of recalculating.
