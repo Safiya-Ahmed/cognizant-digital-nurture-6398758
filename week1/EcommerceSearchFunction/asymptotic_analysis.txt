@@ -1,0 +1,20 @@
+Big O Notation Explanation:
+
+Big O notation describes the performance (time or space complexity) of an algorithm as the input size grows.
+
+1. Linear Search:
+   - Best Case: O(1) -> When the element is at the start.
+   - Average Case: O(n)
+   - Worst Case: O(n) -> When the element is at the end or not found.
+
+2. Binary Search:
+   - Best Case: O(1) -> If the element is exactly at the middle.
+   - Average Case: O(log n)
+   - Worst Case: O(log n)
+
+Comparison:
+- Linear Search works on unsorted data and is simple, but slow for large datasets.
+- Binary Search is fast (logarithmic time) but only works on sorted data.
+
+Recommendation:
+For optimized e-commerce search functionality, Binary Search is preferred when the product list is sorted and frequently searched.
