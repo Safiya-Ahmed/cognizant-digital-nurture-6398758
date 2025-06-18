@@ -1,0 +1,4 @@
+Recursion is a programming technique where a method calls itself to solve a problem. It breaks a problem into smaller subproblems of the same type, simplifying the overall logic.
+
+Example Use Case in Financial Forecasting:
+Recursion can help calculate future values where each value depends on previous ones — such as compound interest or year-wise growth projections.
