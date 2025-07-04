@@ -1,0 +1,53 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.3)
+
+04-07-25 10:52:29.264 restartedMain         INFO c.c.o.OrmLearnApplication               logStarting   53 Starting OrmLearnApplication using Java 21.0.7 with PID 21332 (C:\Users\safiy\Downloads\orm-learn-difference\orm-learn\target\classes started by safiy in C:\Users\safiy\Downloads\orm-learn-difference\orm-learn)
+04-07-25 10:52:29.271 restartedMain        DEBUG c.c.o.OrmLearnApplication               logStarting   54 Running with Spring Boot v3.5.3, Spring v6.2.8
+04-07-25 10:52:29.272 restartedMain         INFO c.c.o.OrmLearnApplication     logStartupProfileInfo  652 No active profile set, falling back to 1 default profile: "default"
+04-07-25 10:52:29.337 restartedMain         INFO ertyDefaultsPostProcessor                     logTo  252 Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+04-07-25 10:52:30.104 restartedMain         INFO toryConfigurationDelegate    registerRepositoriesIn  145 Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+04-07-25 10:52:30.182 restartedMain         INFO toryConfigurationDelegate    registerRepositoriesIn  213 Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+04-07-25 10:52:31.018 restartedMain         INFO o.h.j.i.util.LogHelper    logPersistenceUnitInformation   31 HHH000204: Processing PersistenceUnitInfo [name: default]
+04-07-25 10:52:31.233 restartedMain         INFO org.hibernate.Version                    logVersion   44 HHH000412: Hibernate ORM core version 6.6.18.Final
+04-07-25 10:52:31.298 restartedMain         INFO .i.RegionFactoryInitiator           initiateService   50 HHH000026: Second-level cache disabled
+04-07-25 10:52:31.969 restartedMain         INFO SpringPersistenceUnitInfo            addTransformer   87 No LoadTimeWeaver setup: ignoring JPA class transformer
+04-07-25 10:52:32.005 restartedMain         INFO c.z.h.HikariDataSource                getConnection  109 HikariPool-1 - Starting...
+04-07-25 10:52:32.655 restartedMain         INFO c.z.h.pool.HikariPool                 checkFailFast  575 HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@250b58ee
+04-07-25 10:52:32.666 restartedMain         INFO c.z.h.HikariDataSource                getConnection  122 HikariPool-1 - Start completed.
+04-07-25 10:52:32.833 restartedMain         WARN o.h.orm.deprecation                constructDialect  153 HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+04-07-25 10:52:32.856 restartedMain         INFO o.h.o.connections.pooling         logConnectionInfo  163 HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+04-07-25 10:52:32.900 restartedMain        DEBUG h.t.d.s.s.DdlTypeRegistry             addDescriptor   64 addDescriptor(12, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@35c63d7d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1bc08b49)
+04-07-25 10:52:32.900 restartedMain        DEBUG h.t.d.s.s.DdlTypeRegistry             addDescriptor   64 addDescriptor(-9, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@1dc80d8a) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@28b843a2)
+04-07-25 10:52:32.901 restartedMain        DEBUG h.t.d.s.s.DdlTypeRegistry             addDescriptor   64 addDescriptor(-3, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@2c11be1d) replaced previous registration(org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@3394f215)
+04-07-25 10:52:32.901 restartedMain        DEBUG h.t.d.s.s.DdlTypeRegistry             addDescriptor   64 addDescriptor(4003, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@6e6d1db0) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@422f68c)
+04-07-25 10:52:32.902 restartedMain        DEBUG h.t.d.s.s.DdlTypeRegistry             addDescriptor   64 addDescriptor(4001, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@25e24143) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@31f21bb0)
+04-07-25 10:52:32.902 restartedMain        DEBUG h.t.d.s.s.DdlTypeRegistry             addDescriptor   64 addDescriptor(4002, org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@37f400a3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@24711647)
+04-07-25 10:52:32.903 restartedMain        DEBUG h.t.d.s.s.DdlTypeRegistry             addDescriptor   64 addDescriptor(2004, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@13aeb3d3) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@3220158d)
+04-07-25 10:52:32.903 restartedMain        DEBUG h.t.d.s.s.DdlTypeRegistry             addDescriptor   64 addDescriptor(2005, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@25c6fa72) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@92913a3)
+04-07-25 10:52:32.903 restartedMain        DEBUG h.t.d.s.s.DdlTypeRegistry             addDescriptor   64 addDescriptor(2011, org.hibernate.type.descriptor.sql.internal.CapacityDependentDdlType@6fff097e) replaced previous registration(org.hibernate.type.descriptor.sql.internal.DdlTypeImpl@5d41e571)
+04-07-25 10:52:34.282 restartedMain         INFO .p.i.JtaPlatformInitiator           initiateService   59 HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+04-07-25 10:52:34.331 restartedMain         INFO rEntityManagerFactoryBean buildNativeEntityManagerFactory  447 Initialized JPA EntityManagerFactory for persistence unit 'default'
+04-07-25 10:52:34.872 restartedMain         INFO .OptionalLiveReloadServer               startServer   59 LiveReload server is running on port 35729
+04-07-25 10:52:34.901 restartedMain         INFO c.c.o.OrmLearnApplication                logStarted   59 Started OrmLearnApplication in 6.379 seconds (process running for 6.938)
+04-07-25 10:52:34.908 restartedMain         INFO c.c.o.OrmLearnApplication                      main   25 Inside main
+04-07-25 10:52:34.909 restartedMain         INFO c.c.o.OrmLearnApplication       testGetAllCountries   36 Start
+04-07-25 10:52:35.191 restartedMain        DEBUG org.hibernate.SQL                      logStatement  135 select c1_0.co_code,c1_0.co_name from country c1_0
+04-07-25 10:52:35.230 restartedMain        DEBUG c.c.o.OrmLearnApplication       testGetAllCountries   38 countries=[Country [code=IN, name=India], Country [code=US, name=United States of America]]
+04-07-25 10:52:35.230 restartedMain         INFO c.c.o.OrmLearnApplication       testGetAllCountries   39 End
+04-07-25 10:52:35.238 licationShutdownHook  INFO rEntityManagerFactoryBean                   destroy  660 Closing JPA EntityManagerFactory for persistence unit 'default'
+04-07-25 10:52:35.242 licationShutdownHook  INFO c.z.h.HikariDataSource                        close  349 HikariPool-1 - Shutdown initiated...
+04-07-25 10:52:35.252 licationShutdownHook  INFO c.z.h.HikariDataSource                        close  351 HikariPool-1 - Shutdown completed.
