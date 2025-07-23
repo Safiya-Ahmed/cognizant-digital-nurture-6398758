@@ -1,0 +1,17 @@
+.box {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 10px;
+  width: 250px;
+  margin: 10px;
+}
+
+.scheduledColor {
+  color: blue;
+  font-weight: bold;
+}
+
+.ongoingColor {
+  color: green;
+  font-weight: bold;
+}
