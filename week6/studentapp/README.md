@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+React components are the building blocks of a React app. They are reusable pieces of code that define how a part of the user interface (UI) should look and behave. Each component can manage its own data (called state) and respond to user interactions.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+While both React components and JavaScript functions can take input and return output, there are some key differences:
 
-## Available Scripts
+A JavaScript function just performs a task and returns a value.
 
-In the project directory, you can run:
+A React component returns JSX (which looks like HTML) and is used to render UI.
 
-### `npm start`
+React components can also handle state and lifecycle methods, while normal functions cannot.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+There are mainly two types of React components:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Class Components – These are ES6 classes that extend React.Component. They can have state and lifecycle methods.
 
-### `npm test`
+Function Components – These are simple JavaScript functions that return JSX. With React Hooks, they can now also handle state and lifecycle features.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A class component is written using a JavaScript class and provides more features like state handling and lifecycle methods. Class components were the standard before React Hooks were introduced.
 
-### `npm run build`
+A function component is a simpler way to create a component using a plain JavaScript function. Earlier, it was used only for displaying static content, but now with Hooks it can also manage state and side effects
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In a class component, the constructor is a special method used to initialize the component's state and bind event handlers. It’s called before the component is mounted.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The render() function is required in every class component. It returns the JSX that should be displayed on the screen. React calls this method whenever it needs to update the UI.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
