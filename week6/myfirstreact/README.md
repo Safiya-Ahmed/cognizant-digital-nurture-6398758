@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+A Single Page Application (SPA) is a web app that loads a single HTML page and dynamically updates content without reloading the whole page. This makes user interactions faster and smoother.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Benefits:
 
-## Available Scripts
+Quick navigation and response time
 
-In the project directory, you can run:
+Less load on the server
 
-### `npm start`
+Better user experience, like using an app
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Easier to turn into a mobile app later
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+React is a JavaScript library created by Facebook for building interactive user interfaces, especially SPAs. It breaks the UI into reusable components and updates only the parts that change using a virtual DOM.
 
-### `npm test`
+How it works:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You build UI using components
 
-### `npm run build`
+React tracks changes using virtual DOM
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Only the changed parts are updated in the actual DOM — this saves time and boosts performance
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Differences Between SPA and MPA
+ A Single Page Application (SPA) doesn't reload the entire page when you navigate — only the required content gets updated, making it feel fast and seamless. In contrast, a Multi Page Application (MPA) loads a new page from the server every time you click a link, which can slow down the experience.
 
-### `npm run eject`
+SPAs are generally faster after the first load because they fetch data dynamically and reduce server calls. MPAs, on the other hand, place more load on the backend since each action often triggers a full-page refresh and a fresh server request.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+When it comes to SEO, MPAs have an edge because each page is separately indexed by search engines. SPAs need extra configurations to be search engine friendly. Common examples of SPAs include Gmail and Twitter's web app, while MPAs include sites like Amazon and Wikipedia.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Pros & Cons of Single-Page Applications
+Pros:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Smooth user experience
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Fast interactions after first load
 
-## Learn More
+Easier to build mobile versions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Cons:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+SEO can be tricky
 
-### Code Splitting
+Initial loading time may be longer
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+JavaScript-heavy (can break if JS fails)
 
-### Analyzing the Bundle Size
+React lets you build modern, responsive user interfaces with ease. You work with components that manage their own state and can be reused across the app. It’s great for SPAs and has a strong community and ecosystem.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The Virtual DOM is a lightweight copy of the real DOM that React uses behind the scenes. When something changes, React updates the virtual DOM first, compares it with the old version, and then updates only the necessary parts in the real DOM. This makes updates fast and efficient.
 
-### Making a Progressive Web App
+Key Features of React 
+Component-based: Build UI using reusable pieces
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+JSX: Mix HTML with JavaScript easily
 
-### Advanced Configuration
+Virtual DOM: Faster updates and rendering
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+One-way data flow: Data moves in one direction for better control
 
-### Deployment
+Hooks: Add state and lifecycle features to functions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Strong community: Lots of tools and support
