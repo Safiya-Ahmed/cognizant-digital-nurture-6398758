@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+✅ Features of ES6
+ES6 (ECMAScript 2015) introduced many powerful features that made JavaScript cleaner and more efficient. Some key features include:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+let and const for block-scoped variable declarations
 
-## Available Scripts
+Arrow functions (=>)
 
-In the project directory, you can run:
+Classes and inheritance
 
-### `npm start`
+Template literals (using backticks ``)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Default parameters in functions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Spread (...) and rest (...) operators
 
-### `npm test`
+Destructuring for arrays and objects
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+New data structures like Map and Set
 
-### `npm run build`
+Modules using import and export
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+JavaScript let
+The let keyword allows me to declare variables that are block-scoped. Unlike var, variables declared with let are not hoisted to the top of their scope and are only accessible within the block they are defined in. This makes let a safer and more predictable option.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+✅ Difference between var and let 
+Scope:
+var is function-scoped, while let is block-scoped.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Hoisting:
+Both are hoisted, but var is initialized as undefined whereas let is not accessible before declaration (temporal dead zone).
 
-### `npm run eject`
+Redeclaration:
+var allows redeclaration in the same scope, let does not.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Use Case:
+let is preferred in modern JavaScript for safer, more predictable variable handling.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+✅ ES6 Class Fundamentals
+ES6 introduced class syntax to make object-oriented programming in JavaScript more intuitive. A class contains a constructor and methods, and is just syntactic sugar over JS’s prototype system.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+✅ ES6 Arrow Functions
+Arrow functions (=>) are a shorter way to write functions. They also don’t bind their own this, which is useful in many cases like callbacks.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+✅ ES6 Class Inheritance
+I can create subclasses using the extends keyword. The super() function is used to call the parent class’s constructor.
 
-## Learn More
+✅ Set() and Map() in ES6
+Set() is a collection of unique values. Duplicate values are automatically removed.
+Map() is a collection of key-value pairs and the keys can be any type (even objects or functions).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
