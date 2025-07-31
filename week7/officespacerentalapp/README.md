@@ -7,7 +7,7 @@ ECMAScript (often abbreviated as ES) is the official standard that defines the r
 
 React.createElement() is a core React API that creates a virtual DOM node. It takes three arguments: the element type, optional properties (props), and children. 
 
-To create React nodes using JSX, I simply write HTML-like tags inside a JavaScript function or component. For example, <h2> Welcome  </h2> creates an h2 node. These nodes are translated into virtual DOM objects and help React render the UI efficiently.
+To create React nodes using JSX, I simply write HTML-like tags inside a JavaScript function or component. 
 
 
 JSX elements are rendered to the actual DOM using the ReactDOM.render() method. For example, ReactDOM.render(<App />, document.getElementById('root')) mounts the App component onto a real DOM node with the ID root.
