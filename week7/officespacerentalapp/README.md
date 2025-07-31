@@ -13,7 +13,6 @@ To create React nodes using JSX, I simply write HTML-like tags inside a JavaScri
 JSX elements are rendered to the actual DOM using the ReactDOM.render() method. For example, ReactDOM.render(<App />, document.getElementById('root')) mounts the App component onto a real DOM node with the ID root.
 
 
-I can embed JavaScript expressions inside JSX using curly braces {}. This lets me dynamically display values or perform logic. For example, <p>{username}</p> will output the value of the username variable.
-
+I can embed JavaScript expressions inside JSX using curly braces {}. This lets me dynamically display values or perform logic. 
 
 Inline CSS in JSX is applied using the style attribute, which takes a JavaScript object with camelCase property names. 
