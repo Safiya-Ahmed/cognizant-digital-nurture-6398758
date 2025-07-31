@@ -5,10 +5,9 @@ JSX (JavaScript XML) is a syntax extension for JavaScript that allows me to writ
 ECMAScript (often abbreviated as ES) is the official standard that defines the rules and features of JavaScript. ES6 (ECMAScript 2015) was a major update that introduced features like let, const, arrow functions, classes, template literals, and more — making JavaScript more powerful and modern.
 
 
-React.createElement() is a core React API that creates a virtual DOM node. It takes three arguments: the element type, optional properties (props), and children. JSX code like <h1>Hello</h1> is transformed into React.createElement('h1', null, 'Hello') under the hood.
+React.createElement() is a core React API that creates a virtual DOM node. It takes three arguments: the element type, optional properties (props), and children. 
 
-
-To create React nodes using JSX, I simply write HTML-like tags inside a JavaScript function or component. For example, <h2>Welcome</h2> creates an h2 node. These nodes are translated into virtual DOM objects and help React render the UI efficiently.
+To create React nodes using JSX, I simply write HTML-like tags inside a JavaScript function or component. For example, <h2> Welcome  </h2> creates an h2 node. These nodes are translated into virtual DOM objects and help React render the UI efficiently.
 
 
 JSX elements are rendered to the actual DOM using the ReactDOM.render() method. For example, ReactDOM.render(<App />, document.getElementById('root')) mounts the App component onto a real DOM node with the ID root.
