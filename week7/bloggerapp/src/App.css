@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.column {
+  width: 30%;
+  padding: 10px 20px;
+}
+
+.divider {
+  width: 2px;
+  background-color: green;
+  margin: 0 10px;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+h4 {
+  font-size: 14px;
+  color: gray;
+  margin: 5px 0;
+}
+
+p {
+  margin: 5px 0;
+  font-size: 14px;
+}
